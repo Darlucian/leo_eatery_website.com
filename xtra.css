@@ -1,0 +1,333 @@
+.about-container{
+    width: 100%;
+    border: 1px sold black;
+}
+.about-0{
+    width: 100%;
+    box-sizing: border-box;
+    background-image: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url(port_images/abm/tg\ \(5\).jpg);
+    background-position: center;
+    background-size: cover;
+    height: 50%;
+}
+.about-0-text{
+    justify-content: space-around;
+    margin-left: 80px;
+    padding-top: 80px;
+    /* border: 2px solid white; */
+    /* margin-top: 90px; */
+}
+.about-0-text h3{
+    color: white;
+    font-size: 25px;
+}
+.about-0-text p{
+    color: white;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 12px;
+    font-style: italic;
+}
+.about-0-text button{
+    padding: 10px;
+    border-radius: 15px;
+    width: 15%;
+    font-size: 13px;
+    font-weight: bold;
+    background-color: greenyellow;
+    color: black;
+    border: none;
+}
+.abt-con{
+    /* margin-top: 40px; */
+    width: 100%;
+    justify-content: space-around;
+    display: flex;
+    flex-flow: wrap;
+    flex-direction: row;
+}
+.about-1{
+    /* margin-top: 40px; */
+   width: 45%;
+}
+.about-1 h2{
+    text-align: center;
+}
+.about-1 p{
+    /* text-align: center; */
+    width: 100%;
+    font-family: cursive;
+
+}
+.about-slide{
+    margin-top: 60px;
+    width: 50%;
+    box-sizing: border-box;
+    /* border: 2px solid black; */
+}
+.about-slide img{
+    width: 100%;
+}
+
+.scroll-container{
+    width: 5%;
+    /* position: absolute;
+    top: 0;
+    margin-left: 90%;
+    border: 2px solid black;
+    width: 5%;
+    display: block;
+    height: 100%; */
+}
+/* .scroll-container:before{
+    content: '';
+    display: block;
+    height: 100vh;
+    pointer-events: none;
+} */
+.scroll-container a{
+    position: sticky;
+    cursor: pointer;
+    font-size: 10px;
+}
+
+.overall{
+    width: 100%;
+    justify-content: space-around;
+    display: flex;
+    flex-flow: wrap;
+    flex-direction: row;
+}
+.account{
+    width: 25%;
+    border: 2px solid black;
+}
+
+
+/* checkout page */
+.check-container{
+    width: 65%; 
+    /*display: flex;
+    flex-direction: row;
+    flex-flow: wrap;*/
+/*    margin: 15px;  */
+/*   margin-top: 40px; */
+/*   background-color: whitesmoke;*/
+/*     border: 1px solid black; */
+}
+.check-title{
+    margin-top: 70px;
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+}
+.check-1{
+    border: 2px solid darkred;
+    background-color: white;
+/*    margin-left: 50px;*/
+    display: flex;
+    flex-flow: wrap;
+    flex-direction: row;
+    width: 100%;
+    border: 4px solid whitesmoke;
+    margin: 10px;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+}
+.check-quantity{
+    margin: 10px;
+}
+.delivery-date{
+font-size: 20px;
+color: rgb(104, 168, 8);
+font-weight: bold;
+margin: 20px;
+/*border: 2px solid green;*/
+}
+.check-2{
+    display: flex;
+    flex-flow: wrap;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 50%;
+}
+.check-item-details{
+    margin-top: 35px;
+    width: 20%;
+    font-size: 15px;
+}
+.check-image{
+/*    border: 2px solid yellow;*/
+    width: 100%;
+    display: flex;
+    flex-flow: wrap;
+    flex-direction: row;
+}
+.check-image img{
+    width: 25%;
+/*    height: auto;*/
+    margin: 5px;
+}
+.product-name{
+    font-family: arial;
+    color: black;
+    font-weight: bolder;
+}
+.check-price{
+    color: teal;
+    margin: 10px;
+    font-weight: bold;
+    padding: 2px;
+}
+.quantity-label{
+/*    padding: 2px;*/
+    margin: 10px;
+/*    width: 100%;*/
+    font-weight: bold;
+}
+.link-primary{
+/*    width: 10/0%;*/
+/*    padding: 10px;*/
+    color: teal;
+
+}.js-cart-item-container-e1, .js-cart-item-container-e2{
+width: 100%;
+}
+span{
+    width: 100%;
+}
+.link-primary:hover{
+    cursor: pointer;
+    color: orangered;
+}
+
+.delivery-options{
+/*    width: 50%;*/
+    padding: 10px;
+/*    border: 2px solid blue;*/
+}
+.delivery-options-title{
+    font-size: 15px;
+    font-family: Arial;
+    font-weight: bold;
+    padding: 20px;
+    color: black;
+}
+.delivery-option{
+    display: flex;
+    padding: 10px;
+}
+.delivery-option-date{
+    color: teal;
+}
+.delivery-option-price{
+    color: gray;
+}
+/*checkout second page*/
+.account{
+    height: 30vh;
+}
+.payment-summary-title {
+    font-weight: 700;
+    font-size: 18px;
+    margin-bottom: 12px;
+  }
+  
+  .payment-summary-row {
+    display: grid;
+    /* 1fr auto; means the width of the 2nd column will be
+       determined by the elements inside the column (auto).
+       The 1st column will take up the remaining space. */
+    grid-template-columns: 1fr auto;
+  
+    font-size: 15px;
+    margin-bottom: 9px;
+  }
+  
+  .payment-summary-money {
+    text-align: right;
+  }
+  
+  .subtotal-row .payment-summary-money {
+    border-top: 1px solid rgb(222, 222, 222);
+  }
+  
+  .subtotal-row div {
+    padding-top: 9px;
+  }
+  
+  .total-row {
+    color: rgb(177, 39, 4);
+    font-weight: 700;
+    font-size: 18px;
+  
+    border-top: 1px solid rgb(222, 222, 222);
+    padding-top: 18px;
+  }
+  
+  .place-order-button {
+    width: 100%;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    border-radius: 8px;
+  
+    margin-top: 11px;
+    margin-bottom: 15px;
+  }
+
+ 
+  
+
+
+  .payment-summary {
+    border: 1px solid rgb(222, 222, 222);
+    border-radius: 4px;
+    padding: 18px;
+    height: 42vh;
+    width: 24%;
+    margin: 5px;
+  }
+  .place-order-button{
+    color: white;
+    background-color: rgb(87, 137, 12);
+    border: none;
+    font-weight: bold;
+    cursor: pointer;
+    box-shadow: 20px gray;
+  }
+  .place-order-button:hover{
+    background-color: rgb(61, 90, 6);
+    /* color: black; */
+  }
+  .cart-item-container {
+    margin-bottom: 12px;
+  }
+  
+  .payment-summary {
+    padding-bottom: 5px;
+  }
+  
+  @media (max-width: 750px) {
+    .payment-summary {
+      /* grid-row: 1 means this element will be placed into row
+        1 in the grid. (Normally, the row that an element is
+        placed in is determined by the order of the elements in
+        the HTML. grid-row overrides this default ordering). */
+      grid-row: 1;
+      margin-bottom: 12px;
+      width: 100%;
+      height: auto;
+    }
+    .js-order-summary, .check-quantity, .quantity-label{
+      /* display: flex; */
+      width: 100%;
+    }
+    .check-item-details{
+      width: 50%;
+    }
+    .update-quantity-link, .delete-quantity-link{
+      width: auto;
+    }
+  }
+  

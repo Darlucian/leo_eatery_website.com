@@ -1,0 +1,131 @@
+<Doctype html>
+	<head>
+		<title>My Project 1</title>
+		<meta charset="utf-8">
+		<meta http-equiv="viewport" content="width" device-widthh= "initial scale 1">
+		<meta name="discription" content="Wellcome to My Portfolio Website">
+		<link rel="stylesheet" type="text/css" href="port.css">
+</head>
+<body>
+  
+     <div class="container">
+   
+        <div class="head-line-3">
+          <div class="be-1">  
+            <p>LOS<span>EATERY</span></p>
+             </div>
+            <div class="head-line-4">
+              
+             <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="Sign.html">Sign Up</a></li>
+                <li><a href="Menu.html">Menu</a></li>
+            </ul> 
+            </div>
+          
+            <div class="log-1">
+                <a href="checkout.html" style="cursor: pointer;">
+              <img src="ico/cart-icon.png" width="50%">
+                 </a>
+            </div>
+         
+           <!-- <a href="Meals.html"> -->
+            <div class="log-2">
+              <a href="Sign.html">
+              <img src="ico/usero.png" width="40%">
+              </a>
+            </div>
+           <!-- </a> -->
+            <div class="nav-nav">
+              <span class="open-slide">
+                <a href="#" onclick="openSlideMenu()" style="float: left;">
+                  <svg width="30" height="30">
+                    <path d="M0,5 30,5" stroke="#fff" stroke-width="3"/>
+                    <path d="M0,14 30,14" stroke="#fff" stroke-width="3"/>
+                    <path d ="M0,23 30,23" stroke="#fff" stroke-width="3"/>
+                    </svg>  
+                    
+                </a>
+              </span>
+              <div id="side-menu" class="side-nav">
+                <a href="#" class="btn-close" onclick="closeSlideMenu()">&times;</a>
+                <!-- <span style="margin-left: 10px;"> +234 564321789 09045367832</span> -->
+                <!-- <a href="https://www.train.com:2096/">Emails</a> -->
+                <a href="index.html">Home</a>
+                <a href="about.html">About Us</a>
+                <a href="Sign.html">Sign Up</a>
+                <!-- <a href="hom.html">Home Services</a> -->
+                <!-- <a href="onlin.html">Online Sales</a> -->
+                <a href="Menu.html">Menu</a>
+                <a href="contact.html">Contact Us</a>
+              </div>
+              
+              <script type="text/javascript">
+                function openSlideMenu(){
+                  document.getElementById('side-menu').style.width = '250px';
+                  document.getElementById('main').style.marginLeft = '250px';
+                }
+                 function closeSlideMenu(){
+                 document.getElementById('side-menu').style.width = '0';
+                 document.getElementById('main').style.marginLeft = '0';	
+                 }
+              </script>	
+              
+            </div>
+        </div>
+
+      <div class="sub-bar">
+        <div class="write-up">
+            <h5>OUR TREATS</h5>
+<p>All around the world global changes has been on the rampant increase and has greatly contributed to the amazing reformation of our modern economy</p>
+<a href="Menu.html">
+  <button style="cursor: pointer; color: #fff;">Order Now</button>
+</a>
+<div class="search-bar" style="margin-top: 40px; display: flex; flex-flow: wrap; flex-direction: row;">
+  <input style="width: 50%; padding: 10px;" type="search" name="sn" placeholder="Search And Explore"><div class="se-but" style="background-color: rgb(71, 113, 8); width: 12%; border-top-right-radius: 5px; border-bottom-right-radius: 5px;">
+    
+
+
+    <img src="ico/se.png" width="70%" style="margin: 5px;">
+  </div>
+</div>
+
+           </div>
+
+
+
+           <div class="col">
+       <a href="Fries.php">
+        <div class="card card1">
+          <h5>Burgers</h5>
+          <p>Your fantasy bite in every taste</p>
+          </div>
+       </a>
+       <a href="Drinks.php">
+        <div class="card card2">
+            <h5> Wines</h5>
+            <p>Wine specially made for Kings & Queens</p>
+            </div>
+            </a>
+            <a href="Fries.php">
+            <div class="card card3">
+            <h5>Fries</h5>
+            <p>The absolute crunch for happy taste</p>
+            </div>
+            </a>
+            <a href="Meals.php">
+            <div class="card card4">
+                <h5>Meals</h5>
+                <p>Local, International dishes at your door-step</p>
+                </div>
+            </a>
+            
+    </div>
+         
+      </div>
+        </div>
+        <script type="module" src="scripts/web.js"></script>
+   
+</body>
+</Doctype>
